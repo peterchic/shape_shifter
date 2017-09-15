@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cars</title>
+    <link rel="stylesheet" href="index.css" type"text/css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 class="pageTitle">Shape Shifter!</h1>
+    <table style="width: 100%;">
+      <tr>
+        <th>Color:
+          <span class="custom-dropdown">
+          <select name='cssProp' id="background">
+            <option value="#D34731">Rust</option>
+            <option value="#8F0E41">Maroon</option>
+            <option value="#581844">Eggplant</option>
+          </select>
+        </span>
+        </th>
+        <th>Width:
+          <span class="custom-dropdown">
+          <select name='cssProp' id="width">
+            <option value="200px">200px</option>
+            <option value="300px">300px</option>
+            <option value="400px">400px</option>
+          </select>
+        </span>
+        </th>
+        <th>Height:
+          <span class="custom-dropdown">
+          <select name='cssProp' id="height">
+            <option value="200px">200px</option>
+            <option value="300px">300px</option>
+            <option value="400px">400px</option>
+          </select>
+        </span>
+        </th>
+        <th>Corners:
+          <span class="custom-dropdown">
+          <select name='cssProp' id="border-radius">
+            <option value="20px">20px</option>
+            <option value="30px">30px</option>
+            <option value="60px">60px</option>
+            <option value="50%">50%</option>
+          </select>
+        </span>
+        </th>
+      </tr>
+    </table>
+    <p id="set" class="button btnPush btnBlueGreen">Set</p>
+    <div id="modify"></div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
