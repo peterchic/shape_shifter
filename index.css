@@ -15,7 +15,6 @@ body {
 
 th{
   margin: auto;
-  /*border: 2px black solid;*/
 }
 
 .pageTitle {
@@ -107,9 +106,6 @@ th{
 }
 
 p.button {
-  /*display: inline-block;*/
-  /*position: relative;*/
-  /*width: 120px;*/
   margin: 10px;
   font-weight: 600;
   text-align: center;
@@ -128,7 +124,6 @@ p.button {
 }
 
 .button:hover {
-	/*opacity: 0.4;*/
   background: #77cf61
 }
 
